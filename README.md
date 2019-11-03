@@ -1,3 +1,9 @@
+Project made following this <a href="https://www.highcharts.com/blog/post/highcharts-and-angular-7/?fbclid=IwAR2Z6bkHuBnxXB7_EBPB7RSJaKkDrJdTsXzkhRflmPIgO2vQJv2KhUHQVkY">Highcharts official tutorial.</a>
+
+
+Preview 
+<img src="https://github.com/cesarazocar/angular8-highcharts/blob/master/preview.png" width="650" title="Angular MysqlCRUDe" alt="Angular MysqlCRUD">
+
 # Angular8Highcharts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
