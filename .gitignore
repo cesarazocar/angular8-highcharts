@@ -44,3 +44,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/app/services/siben-info.service.ts
+src/app/services/global.ts
+src/app/services/siben-info.service.spec.ts

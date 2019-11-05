@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OutputGraphComponent } from './components/output-graph/output-graph.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GraficoComponent } from './components/grafico/grafico.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    OutputGraphComponent
+    OutputGraphComponent,
+    GraficoComponent
   ],
   imports: [
     BrowserModule,

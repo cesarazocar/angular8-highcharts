@@ -12,6 +12,12 @@ let Boost = require('highcharts/modules/boost');
 let noData = require('highcharts/modules/no-data-to-display');
 let More = require('highcharts/highcharts-more');
 
+
+import highcharts3D from 'highcharts/highcharts-3d.src';
+highcharts3D(Highcharts);
+//require('cylinder');
+
+
 Boost(Highcharts);
 noData(Highcharts);
 More(Highcharts);
@@ -19,11 +25,11 @@ noData(Highcharts);
 //------------------Added-------------
 
 @Component({
-  selector: 'app-output-graph',
-  templateUrl: './output-graph.component.html',
-  styleUrls: ['./output-graph.component.css']
+  selector: 'app-grafico',
+  templateUrl: './grafico.component.html',
+  styleUrls: ['./grafico.component.css']
 })
-export class OutputGraphComponent implements OnInit {
+export class GraficoComponent implements OnInit {
 
   constructor(private http: HttpClient,//httpclient added
     private dataService: DataService) {
@@ -31,11 +37,8 @@ export class OutputGraphComponent implements OnInit {
   } 
 
   ngOnInit() {
-
-     this.dataService.getData();
-    //this.dataService.getData();
-    //Highcharts.chart('container', this.dataService.options);//actualizamos chart
-
-
+    this.dataService.getData();
   }
+  
+
 }
