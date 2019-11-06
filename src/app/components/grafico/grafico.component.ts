@@ -11,7 +11,7 @@ declare var require: any;
 let Boost = require('highcharts/modules/boost');
 let noData = require('highcharts/modules/no-data-to-display');
 let More = require('highcharts/highcharts-more');
-
+let Cylinder = require('highcharts/modules/cylinder')
 
 import highcharts3D from 'highcharts/highcharts-3d.src';
 highcharts3D(Highcharts);
@@ -22,6 +22,7 @@ Boost(Highcharts);
 noData(Highcharts);
 More(Highcharts);
 noData(Highcharts);
+Cylinder(Highcharts);
 //------------------Added-------------
 
 @Component({
